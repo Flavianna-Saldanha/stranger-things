@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <div>
-      <div>
+    <div className="fixed top-0 left-0 w-screen p-4 flex gap-4 z-10">
+      <div className="flex-1">
         <div>
           <Link href="/">Home</Link>
         </div>
       </div>
-      <div>
+      <div className="flex-2 flex justify-between">
         <div>
           <div>
             <Link href="/work">Work</Link>

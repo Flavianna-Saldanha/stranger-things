@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="w-full h-svh overflow-hidden bg-var(--bg)">
         <div>
           <h1>Stranger Things</h1>
         </div>
