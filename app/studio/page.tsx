@@ -1,7 +1,7 @@
 const Studio = () => {
   return (
     <>
-      <div>
+      <div className="py-60 px-4 flex gap-4 bg-var(--bg)">
         <div>
           <h2>Our Story</h2>
         </div>
