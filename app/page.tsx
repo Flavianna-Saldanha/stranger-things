@@ -1,8 +1,14 @@
+"use client";
+
+import { useRevealer } from "@/src/hooks/useRevealer";
 import Image from "next/image";
 
 export default function Home() {
+	useRevealer();
+
   return (
     <>
+			<div className="revealer fixed inset-0 bg-black origin-top z-999" />
       <div className="w-full h-svh overflow-hidden bg-var(--bg)">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
           <div className="text-[12vw] text-center font-black">Stranger Things</div>

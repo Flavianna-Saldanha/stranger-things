@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <div className="sticky top-0 w-full h-20 px-6 flex items-center justify-between z-50 bg-var(--bg)">
+    <div className="sticky top-0 w-full h-20 px-6 flex items-center justify-between z-50 bg-(--bg)">
       <div className="flex-1">
         <div>
           <Link href="/">Home</Link>

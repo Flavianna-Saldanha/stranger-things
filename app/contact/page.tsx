@@ -1,6 +1,13 @@
+"use client";
+
+import { useRevealer } from "@/src/hooks/useRevealer";
+
 const Studio = () => {
+	useRevealer();
+
   return (
     <>
+			<div className="revealer fixed inset-0 bg-black origin-top z-999" />
       <div className="w-full h-full py-60 px-4 flex gap-4 bg-var(--bg)">
         <div className="flex-1">
           <h2>Contact Us</h2>

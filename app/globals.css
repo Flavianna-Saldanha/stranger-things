@@ -45,3 +45,21 @@ p {
   font-size: 0.85rem;
   font-weight: 600;
 }
+
+.letter, .word, .line {
+	position: relative;
+	display: inline-block;
+	will-change: transform;
+}
+
+.revealer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100svh;
+	transform-origin: center top;
+	background-color: var(--fg);
+	pointer-events: none;
+	z-index: 2;
+}

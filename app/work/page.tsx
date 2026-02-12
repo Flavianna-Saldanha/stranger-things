@@ -1,8 +1,14 @@
+"use client";
+
+import { useRevealer } from "@/src/hooks/useRevealer";
 import Image from "next/image"
 
 const Work = () => {
+	useRevealer();
+
   return (
     <>
+			<div className="revealer fixed inset-0 bg-black origin-top z-999" />
       <div className="text-center py-[15em] px-[1em] flex flex-col items-center gap-8 bg-var(--bg)">
         <div className="text-5xl font-bold">Selected Work</div>
 
