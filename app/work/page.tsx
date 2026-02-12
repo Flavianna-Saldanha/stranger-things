@@ -1,14 +1,43 @@
+import Image from "next/image"
+
 const Work = () => {
   return (
     <>
-      <div className="text-center py-[15em] px-[1em] flex flex-col gap-8 bg-var(--bg)">
-        <h1>Selected Work</h1>
+      <div className="text-center py-[15em] px-[1em] flex flex-col items-center gap-8 bg-var(--bg)">
+        <div className="text-5xl font-bold">Selected Work</div>
 
-        <div className="w-[32%] my-0 mx-auto flex flex-col gap-16">
-          <img src="/assets/01.jpg" alt="" className="aspect-4/5" />
-          <img src="/assets/01.jpg" alt="" className="aspect-4/5" />
-          <img src="/assets/01.jpg" alt="" className="aspect-4/5" />
-          <img src="/assets/01.jpg" alt="" className="aspect-4/5" />
+        <div className="w-[25%] flex flex-col gap-16">
+          <Image
+						src="/assets/01.jpg"
+						alt="Imagem 1"
+						width={800}
+						height={1000}
+						className="aspect-4/5 object-cover"
+					/>
+
+					<Image
+						src="/assets/01.jpg"
+						alt="Imagem 2"
+						width={800}
+						height={1000}
+						className="aspect-4/5 object-cover"
+					/>
+
+					<Image
+						src="/assets/01.jpg"
+						alt="Imagem 3"
+						width={800}
+						height={1000}
+						className="aspect-4/5 object-cover"
+					/>
+
+					<Image
+						src="/assets/01.jpg"
+						alt="Imagem 4"
+						width={800}
+						height={1000}
+						className="aspect-4/5 object-cover"
+					/>
         </div>
       </div>
     </>

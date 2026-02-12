@@ -2,10 +2,10 @@ const Studio = () => {
   return (
     <>
       <div className="py-60 px-4 flex gap-4 bg-var(--bg)">
-        <div>
+        <div className="flex-1">
           <h2>Our Story</h2>
         </div>
-        <div>
+        <div className="flex-2 flex flex-col gap-8">
           <h2>
             Aplicação web voltada para fãs de Stranger Things, desenvolvida para
             centralizar informações da série como personagens, temporadas,
