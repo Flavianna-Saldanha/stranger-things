@@ -12,7 +12,7 @@ export function useRevealer() {
 		gsap.to(".revealer", {
 			scaleY: 0,
 			duration: 1.25,
-			delay: .5,
+			delay: .3,
 			ease: "hop",
 		})
 	}, {})
